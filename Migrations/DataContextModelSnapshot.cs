@@ -44,9 +44,50 @@ namespace Organization_List.Migrations
                     b.Property<bool>("StatusTarefa")
                         .HasColumnType("bit");
 
+                    b.Property<int>("TarefaClass")
+                        .HasColumnType("int");
+
                     b.HasKey("IdTarefa");
 
                     b.ToTable("TB_TAREFAS");
+
+                    b.HasData(
+                        new
+                        {
+                            IdTarefa = 1,
+                            DataCriacao = new DateTime(2023, 12, 7, 18, 33, 17, 932, DateTimeKind.Local).AddTicks(116),
+                            DescTarefa = "Passear Com o Tobias no parque pois está um dia lindo",
+                            NomeTarefa = "Passear com o Cachorro",
+                            StatusTarefa = false,
+                            TarefaClass = 1
+                        },
+                        new
+                        {
+                            IdTarefa = 2,
+                            DataCriacao = new DateTime(2023, 12, 7, 18, 33, 17, 932, DateTimeKind.Local).AddTicks(118),
+                            DescTarefa = "Fazer o almoço para a mamãe",
+                            NomeTarefa = "Fazer o almoço",
+                            StatusTarefa = false,
+                            TarefaClass = 2
+                        },
+                        new
+                        {
+                            IdTarefa = 3,
+                            DataCriacao = new DateTime(2023, 12, 7, 18, 33, 17, 932, DateTimeKind.Local).AddTicks(120),
+                            DescTarefa = "Estudar para a prova de matemática",
+                            NomeTarefa = "Estudar",
+                            StatusTarefa = false,
+                            TarefaClass = 3
+                        },
+                        new
+                        {
+                            IdTarefa = 4,
+                            DataCriacao = new DateTime(2023, 12, 7, 18, 33, 17, 932, DateTimeKind.Local).AddTicks(155),
+                            DescTarefa = "Fazer o trabalho de história",
+                            NomeTarefa = "Fazer o trabalho",
+                            StatusTarefa = false,
+                            TarefaClass = 4
+                        });
                 });
 #pragma warning restore 612, 618
         }

@@ -2,6 +2,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using System;
+using Organization_List.Models.Enuns;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Organization_List.Models
 {
@@ -19,5 +21,8 @@ namespace Organization_List.Models
 
         public string NomeTarefa {get; set;} = "Tarefa";
 
+        public TarefasEnum TarefaClass {get; set;}
+
     }
+    
 }

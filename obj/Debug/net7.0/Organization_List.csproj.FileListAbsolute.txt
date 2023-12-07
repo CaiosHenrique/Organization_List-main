@@ -78,3 +78,8 @@ C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\n
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\publish\web.config
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\publish\Organization_List.deps.json
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\publish\Organization_List.runtimeconfig.json

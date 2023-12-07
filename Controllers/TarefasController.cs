@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Organization_List.Data;
+using Organization_List.Models;
+
 
 namespace Organization_List.Controllers
 {
@@ -31,6 +33,17 @@ namespace Organization_List.Controllers
                 return BadRequest();
             }
         }
+
+        // [HttpGet("{id}")]
+        // public async Task<ActionResult<Tarefas>> Get (int id)
+        // {
+        //     var tarefa = await _context.TB_TAREFAS.FindAsync(id);
+        //     if (tarefa == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     return tarefa;
+        // }
 
         [HttpPost]
         public async Task<IActionResult> PostTarefa (Models.Tarefa tarefa)
