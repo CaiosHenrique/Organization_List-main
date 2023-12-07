@@ -14,7 +14,6 @@ C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\n
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Organization_List.pdb
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Humanizer.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
@@ -22,10 +21,8 @@ C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\n
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -37,13 +34,11 @@ C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\n
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -78,3 +73,8 @@ C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\obj\Debug\n
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\obj\Debug\net7.0\Organization_List.pdb
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\obj\Debug\net7.0\Organization_List.genruntimeconfig.cache
 C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\obj\Debug\net7.0\ref\Organization_List.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Humanizer.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\caiok\Desktop\Organization_List-main\Organization_List-main\bin\Debug\net7.0\System.CodeDom.dll
