@@ -1,9 +1,15 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+using System;
 
 namespace Organization_List.Models
 {
     public class Tarefa
     {  
-        public int IdTarefa {get; set;}
+        [Key]
+        [Column ("IdTarefa")]
+        public int IdTarefa {get; set;} 
 
         public string? DescTarefa {get; set;} 
         

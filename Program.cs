@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Organization_List.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options =>
 {
    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoSomee")); //ConexaoLocal ou ConexaoSomee
-   
+
 });
 
 var app = builder.Build();
