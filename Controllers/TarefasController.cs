@@ -63,17 +63,20 @@ namespace Organization_List.Controllers
         // }
 
         [HttpPost]
-        public async Task<IActionResult> PostTarefa (Models.Tarefa tarefa)
+        public async Task<IActionResult> PostTarefa (Models.Tarefa Tarefa)
         {
             try
             {
-                _context.TB_TAREFAS.Add(tarefa);
+                Tarefa.IdTarefa = 0;
+                _context.TB_TAREFAS.Add(Tarefa);
                 await _context.SaveChangesAsync();
-                return Ok(tarefa);
+
+                return Ok(Tarefa.IdTarefa);
             }
-            catch (System.Exception)
+           catch (System.Exception ex)
             {
-                return BadRequest();
+                var innerExceptionMessage = ex.InnerException?.Message;
+                return BadRequest($"Database update error: {ex.Message}. Inner exception: {innerExceptionMessage}");
             }
         }
 

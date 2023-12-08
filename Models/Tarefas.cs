@@ -17,11 +17,17 @@ namespace Organization_List.Models
         
         public bool StatusTarefa {get; set;} = false;
 
-        public DateTime DataCriacao {get; set;} = DateTime.Now;
+        public DateTime DataCriacao {get; set;}
 
         public string NomeTarefa {get; set;} = "Tarefa";
-
+        
         public TarefasEnum TarefaClass {get; set;}
+
+        public DateTime Data() 
+        {
+            DataCriacao = DateTime.Now;
+            return DataCriacao;
+        }
 
     }
     
