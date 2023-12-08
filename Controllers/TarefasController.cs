@@ -16,16 +16,33 @@ namespace Organization_List.Controllers
     {
         private readonly DataContext _context;
 
+        public Tarefas (DataContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet("{IdTarefa}")]
         public async Task<IActionResult> GetTarefa (int IdTarefa)
         {
             try
             {
                 var result = await _context.TB_TAREFAS.FindAsync(IdTarefa);
-                if (result == null)
-                {
-                    return NotFound();
-                }
+
+                return Ok(result);
+            }
+            catch (System.Exception)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAllTarefas ()
+        {
+            try
+            {
+                var result = _context.TB_TAREFAS.ToList();
+
                 return Ok(result);
             }
             catch (System.Exception)
